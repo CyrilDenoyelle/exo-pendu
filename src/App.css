@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Keyboard */
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.keyboardLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.keyboardKey {
+  font-weight: bold;
+  font-size: calc(10px + 2vmin);
+}
+
+/* Word */
+.word {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  justify-content: space-around;
+}
+
+/* .letter {
+
+} */
